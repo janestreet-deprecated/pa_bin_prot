@@ -1,0 +1,7 @@
+# OASIS_START
+# OASIS_STOP
+package "syntax" (
+  description = "Alias for pa_bin_prot"
+  requires    = "pa_bin_prot"
+  archive     = "-ignore dumy"
+)
