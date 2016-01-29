@@ -1,4 +1,13 @@
 # OASIS_START
+# DO NOT EDIT (digest: e652265e12193cdaad620b9a5e0e0432)
+version = "113.00.01"
+description = "Syntax extension for bin_prot"
+requires = "camlp4 type_conv bin_prot"
+archive(syntax, preprocessor) = "pa_bin_prot.cma"
+archive(syntax, toploop) = "pa_bin_prot.cma"
+archive(syntax, preprocessor, native) = "pa_bin_prot.cmxa"
+archive(syntax, preprocessor, native, plugin) = "pa_bin_prot.cmxs"
+exists_if = "pa_bin_prot.cma"
 # OASIS_STOP
 package "syntax" (
   description = "Alias for pa_bin_prot"
